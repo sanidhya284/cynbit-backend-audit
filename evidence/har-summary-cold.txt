@@ -1,0 +1,49 @@
+== Overview ==
+entries: 40  first-party: 37  origin: www.cynbit.in
+page timings (ms): {'onContentLoad': 281, 'onLoad': 2681}
+status codes: {200: 40}
+
+== Third-party hosts ==
+  www.googletagmanager.com: 1 request(s)
+  fonts.googleapis.com: 1 request(s)
+  fonts.gstatic.com: 1 request(s)
+
+== Security header coverage (first-party responses) ==
+  strict-transport-security        37/37
+  content-security-policy          0/37
+  x-content-type-options           0/37
+  x-frame-options                  0/37
+  referrer-policy                  0/37
+  permissions-policy               0/37
+  cross-origin-opener-policy       0/37
+
+transferred over the wire: 1,501,386 B total, 358,189 B first-party
+
+== Heaviest resources (decoded bytes) ==
+  1,138,856  https://fonts.gstatic.com/s/materialsymbolsoutlined/v382/kJEPBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMz
+    208,215  https://www.cynbit.in/_next/static/css/ab1584e3d32cd2d2.css
+    173,892  https://www.cynbit.in/_next/static/chunks/1255-eae4096fb21f1304.js
+    173,025  https://www.cynbit.in/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js
+    127,487  https://www.cynbit.in/_next/static/chunks/5563-f2fb65d9a5ac2236.js
+    100,498  https://www.cynbit.in/
+     43,981  https://www.cynbit.in/_next/static/chunks/app/(marketing)/products/page-637d1c81fb1ea500.js
+     43,289  https://www.cynbit.in/_next/static/chunks/app/(marketing)/page-786d2581113641b8.js
+
+first-party JS (decoded): 746,955 B   CSS (decoded): 216,865 B
+
+== Cache behaviour of RSC / route requests ==
+  200   123ms  HIT   public, max-age=0, must-revalidate            /story
+  200   123ms  HIT   public, max-age=0, must-revalidate            /team
+  200   328ms  MISS  private, no-cache, no-store, max-age=0, must- /careers
+  200   148ms  HIT   public, max-age=0, must-revalidate            /impact
+  200    96ms  HIT   public, max-age=0, must-revalidate            /services
+  200    95ms  HIT   public, max-age=0, must-revalidate            /products
+  200   270ms  MISS  private, no-cache, no-store, max-age=0, must- /case-studies
+  200   288ms  MISS  private, no-cache, no-store, max-age=0, must- /blog/ai-agents-business-operations
+  200    81ms  HIT   public, max-age=0, must-revalidate            /contact
+
+== Cookies set by first party ==
+   0 Set-Cookie header(s)
+
+== Pattern scan of captured JS/HTML (not a full secrets audit) ==
+  matches: 0
