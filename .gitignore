@@ -1,0 +1,5 @@
+*.har
+download
+download1
+*.har.json
+.DS_Store
